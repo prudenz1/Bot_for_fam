@@ -1,0 +1,12 @@
+meta:
+  environment: node
+  toolchain:
+    name: npm
+    version: 18
+
+build:
+  additionalCommands: npm install discord.js
+  additionalCommands: npm install dotenv
+
+run:
+  scriptName: index.js
