@@ -3,10 +3,12 @@ meta:
   toolchain:
     name: npm
     version: 18
-
 build:
-  additionalCommands: npm install discord.js
-  additionalCommands: npm install dotenv
-
+  artifacts:
+    '*': /
+  additionalCommands: node
+  scriptArguments: npm install discord.js
 run:
-  scriptName: index.js
+  scriptName: Bot_for_fam /index.js
+  persistenceMount: /data
+  containerPort: 80
