@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/prudenz1/Bot_for_fam/issues"
   },
-  "homepage": "https://github.com/prudenz1/Bot_for_fam#readme"
+  "homepage": "https://github.com/prudenz1/Bot_for_fam#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
 }
