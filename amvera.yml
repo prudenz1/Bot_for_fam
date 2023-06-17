@@ -3,12 +3,6 @@ meta:
   toolchain:
     name: npm
     version: 18
-build:
-  artifacts:
-    '*': /
-  additionalCommands: node
-  scriptArguments: npm install discord.js
+
 run:
-  scriptName: Bot_for_fam /index.js
-  persistenceMount: /data
-  containerPort: 80
+  scriptName: index.js
